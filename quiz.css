@@ -1,0 +1,90 @@
+.naslov {
+  text-align: center;
+  font-weight: 75px;
+  font-size: 45px;
+  color: rgb(27, 85, 194);
+  background-color: rgba(228, 153, 13, 0.884);
+  border-radius: 15px;
+  width: 75%;
+  margin: 0 auto;
+}
+
+body {
+  background-image: url("https://store-images.s-microsoft.com/image/apps.35364.14573449505340069.0f503adc-58ce-4d41-a12d-792f97d4a1c0.b5552e99-cd4d-436d-9ba1-241bd613fd93");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+p {
+  border: solid 1px black;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: -10px;
+  width: 50%;
+  font-family: sans-serif;
+}
+
+form {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+.prasanja {
+  padding: 30px;
+  font-size: 18px;
+  border: solid 2px black;
+  border-radius: 8px;
+  background-color: rgba(223, 235, 246, 0.8);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.odgovori {
+  padding: 10px;
+}
+
+button {
+  border: solid 1px black !important ;
+  background-color: rgba(223, 235, 246, 0.8) !important ;
+  border-radius: 10px !important ;
+  padding: 15px !important ;
+  margin-top: 25px !important ;
+  font-size: 15px !important ;
+}
+
+button:hover {
+  background-color: rgb(250, 165, 8) !important;
+}
+
+.dobivki {
+  margin-top: 15px;
+  padding: 30px;
+  border-radius: 8px;
+  border: 2px solid black;
+  background-color: rgba(223, 235, 246, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+}
+
+.progres {
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgba(223, 235, 246, 0.8);
+}
+
+.progres.momentalno {
+  background-color: rgb(250, 165, 8);
+}
+
+.progres.tocno {
+  background-color: rgb(20, 172, 20);
+}
+
+.ml-2 {
+  margin-left: 10px;
+}
